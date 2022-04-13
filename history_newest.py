@@ -5,6 +5,7 @@ from history_all import *
 
 if __name__ == '__main__':
     accouts= get_accounts()
+    
     for account in accouts:
         history_list= history(account)
         
@@ -15,7 +16,7 @@ if __name__ == '__main__':
             
         i=0
         while i < newest_cnt:
-            print("\t %s %s" %s history_list[i])
+            print("\t %s %s" % history_list[i])
             i= i+1
         print ("-"*70)
         
