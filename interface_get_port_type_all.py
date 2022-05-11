@@ -13,7 +13,7 @@ def get_port_type(interface_num) :
 
 
 if __name__ == "__main__":
-    interface_num = all       
+    interface_num = 128       
     port_types = []
 
     i = 1
