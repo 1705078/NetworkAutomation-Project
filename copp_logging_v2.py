@@ -59,7 +59,7 @@ if __name__ == "__main__":
     # 경과 시간을 문자열(x시 x분 x초)로 변경
     check_term_str = get_term_str(check_term)
     
-    original_pk = write_syslog(check_term_str, copp())
+    original_pk = copp.get.drop.packet()
     sleep(check_term)
     changed_pk = subtract(original_pk, copp())
     
